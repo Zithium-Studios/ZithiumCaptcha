@@ -1,0 +1,14 @@
+name: SaveCaptcha
+version: '${version}'
+main: org.itzsave.SaveCaptcha
+api-version: '1.19'
+
+commands:
+  captcha:
+    description: Main Command
+
+permissions:
+  captcha.admin:
+    default: op
+    children:
+      - captcha.command.show
