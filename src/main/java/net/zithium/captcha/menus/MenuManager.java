@@ -1,14 +1,14 @@
-package org.itzsave.menus;
+package net.zithium.captcha.menus;
 
+import net.zithium.captcha.ZithiumCaptcha;
 import org.bukkit.entity.Player;
-import org.itzsave.SaveCaptcha;
 
 public class MenuManager {
 
-    private final SaveCaptcha plugin;
+    private final ZithiumCaptcha plugin;
     private CaptchaMenu captchaMenu;
 
-    public MenuManager(SaveCaptcha plugin){
+    public MenuManager(ZithiumCaptcha plugin){
         this.plugin = plugin;
     }
 

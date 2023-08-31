@@ -1,4 +1,4 @@
-package org.itzsave.utils;
+package net.zithium.captcha.utils;
 
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.minimessage.MiniMessage;

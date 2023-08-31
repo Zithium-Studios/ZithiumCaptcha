@@ -1,23 +1,23 @@
-package org.itzsave.menus;
+package net.zithium.captcha.menus;
 
 
 import dev.triumphteam.gui.builder.item.ItemBuilder;
 import dev.triumphteam.gui.guis.Gui;
 import dev.triumphteam.gui.guis.GuiItem;
+import net.zithium.captcha.ZithiumCaptcha;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryCloseEvent;
-import org.itzsave.SaveCaptcha;
-import org.itzsave.utils.TextUtils;
+import net.zithium.captcha.utils.TextUtils;
 
 import java.util.concurrent.ThreadLocalRandom;
 
 public class CaptchaMenu {
 
-    private final SaveCaptcha plugin;
+    private final ZithiumCaptcha plugin;
 
-    public CaptchaMenu(SaveCaptcha plugin) {
+    public CaptchaMenu(ZithiumCaptcha plugin) {
         this.plugin = plugin;
     }
 

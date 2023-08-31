@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SaveCaptcha.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SaveCaptcha.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SaveCaptcha.test.iml" filepath="$PROJECT_DIR$/.idea/modules/SaveCaptcha.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.itzsave.SaveCaptcha.main.iml" filepath="$PROJECT_DIR$/.idea/modules/org.itzsave.SaveCaptcha.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.itzsave.SaveCaptcha.test.iml" filepath="$PROJECT_DIR$/.idea/modules/org.itzsave.SaveCaptcha.test.iml" />
     </modules>
   </component>
 </project>

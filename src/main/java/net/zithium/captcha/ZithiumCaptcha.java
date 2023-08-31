@@ -1,16 +1,13 @@
-package org.itzsave;
+package net.zithium.captcha;
 
-import dev.triumphteam.gui.guis.GuiItem;
 import me.mattstudios.mf.base.CommandManager;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.itzsave.commands.CaptchaCommand;
-import org.itzsave.menus.MenuManager;
-import org.itzsave.utils.TextUtils;
-
-import java.util.Random;
+import net.zithium.captcha.commands.CaptchaCommand;
+import net.zithium.captcha.menus.MenuManager;
+import net.zithium.captcha.utils.TextUtils;
 
 
-public final class SaveCaptcha extends JavaPlugin {
+public final class ZithiumCaptcha extends JavaPlugin {
 
     private MenuManager menuManager;
 

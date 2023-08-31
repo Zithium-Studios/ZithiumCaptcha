@@ -1,6 +1,6 @@
-name: SaveCaptcha
+name: ZithiumCaptcha
 version: '${version}'
-main: org.itzsave.SaveCaptcha
+main: net.zithium.captcha.ZithiumCaptcha
 api-version: '1.19'
 
 commands:

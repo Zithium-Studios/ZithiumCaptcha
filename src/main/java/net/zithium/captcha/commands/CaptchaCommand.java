@@ -1,19 +1,19 @@
-package org.itzsave.commands;
+package net.zithium.captcha.commands;
 
 
 import me.mattstudios.mf.annotations.*;
 import me.mattstudios.mf.base.CommandBase;
+import net.zithium.captcha.ZithiumCaptcha;
+import net.zithium.captcha.utils.TextUtils;
 import org.bukkit.entity.Player;
-import org.itzsave.SaveCaptcha;
-import org.itzsave.utils.TextUtils;
 
 
 @Command("captcha")
 @SuppressWarnings("unused") // Since IntelliJ likes to throw notices about unused methods.
 public class CaptchaCommand extends CommandBase {
-    private final SaveCaptcha plugin;
+    private final ZithiumCaptcha plugin;
 
-    public CaptchaCommand(SaveCaptcha plugin) {
+    public CaptchaCommand(ZithiumCaptcha plugin) {
         this.plugin = plugin;
     }
 
